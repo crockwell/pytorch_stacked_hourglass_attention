@@ -4,7 +4,7 @@
 
 [Newell et al.](https://github.com/princeton-vl/pose-hg-train) originally reported 0.881 validation accuracy on MPII. [By using bigger batch size, more training and Adam](https://github.com/princeton-vl/pytorch_stacked-hourglass), we achieved validation accuracies of 0.885 using a 2HG model and 0.901 using an 8HG model. In this implementation, validation accuracies of 0.889 and 0.904 are attained by adding a simple additional bottleneck to decoder network used as attention.
 
-<img src="net1_improved.JPG" width="45%"> <img src="net2_improved.JPG" width="45%">
+<img src="imgs/net1.JPG" width="45%"> <img src="imgs/net2.JPG" width="45%">
 
 ## Getting Started
 
