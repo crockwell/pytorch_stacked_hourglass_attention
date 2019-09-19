@@ -60,4 +60,4 @@ The train/val split is same as that found in authors' [implementation](https://g
 
 #### Special Thanks
 
-PyTorch code extended from [here](https://github.com/princeton-vl/pytorch_stacked-hourglass). Implemented under advisors Alejandro Newell and Prof. Jia Deng.
+PyTorch code extended from [here](https://github.com/princeton-vl/pytorch_stacked-hourglass). Implemented for a project under advisors Alejandro Newell and Prof. Jia Deng.
