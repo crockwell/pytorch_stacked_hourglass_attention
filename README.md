@@ -58,6 +58,10 @@ Models should be formatted as exp/<exp_name>/checkpoint.pth.tar
 
 The train/val split is same as that found in authors' [implementation](https://github.com/princeton-vl/pose-hg-train)
 
+#### Note
+
+During training, occasionaly "ConnectionResetError" warning was displayed between epochs, but did not affect training.  
+
 #### Special Thanks
 
 PyTorch code extended from [here](https://github.com/princeton-vl/pytorch_stacked-hourglass). Implemented for a project under advisors Alejandro Newell and Prof. Jia Deng.
