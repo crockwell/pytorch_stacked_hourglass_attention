@@ -15,7 +15,7 @@ Requirements:
 - Python 3 (code has been tested on Python 3.6)
 - PyTorch (code tested with 0.4)
 - CUDA and cuDNN
-- Python packages (not exhaustive): opencv-python, tqdm, cffi, h5py
+- Python packages (not exhaustive): opencv-python, tqdm, cffi, h5py, scipy (tested with 1.1.0)
 
 Structure:
 - ```data/```: data loading and data augmentation code
@@ -48,9 +48,9 @@ The option "-m n" will automatically stop training after n total iterations (if 
 
 #### Pretrained Models
 
-An 8HG pretrained model is available [here](http://www-personal.umich.edu/~cnris/attention_2hg/checkpoint.pth.tar). It should yield validation accuracy of 0.904.
+An 8HG pretrained model is available [here](http://www-personal.umich.edu/~cnris/attention_8hg/checkpoint.pth.tar). It should yield validation accuracy of 0.904.
 
-A 2HG pretrained model is available [here](http://www-personal.umich.edu/~cnris/attention_8hg/checkpoint.pth.tar). It should yield validation accuracy of 0.889.
+A 2HG pretrained model is available [here](http://www-personal.umich.edu/~cnris/attention_2hg/checkpoint.pth.tar). It should yield validation accuracy of 0.889.
 
 Models should be formatted as exp/<exp_name>/checkpoint.pth.tar
 
@@ -60,4 +60,4 @@ The train/val split is same as that found in authors' [implementation](https://g
 
 #### Special Thanks
 
-PyTorch code extended from [here](https://github.com/princeton-vl/pytorch_stacked-hourglass). Implemented under advisors Alejandro Newell and Prof. Jia Deng.
+PyTorch code extended from [here](https://github.com/princeton-vl/pytorch_stacked-hourglass). Implemented for a project under advisors Alejandro Newell and Prof. Jia Deng.
