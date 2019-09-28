@@ -99,11 +99,8 @@ class CoordConvTranspose(nn.Module):
         if bn:
             self.bn = nn.BatchNorm2d(out_channels)
         self.coord_adder = AddCoordinates(with_r)
-        
-        #self.addcoords = AddCoords(with_r=with_r)
 
     def forward(self, x):
-        #x = self.addcoords(x)
         x = self.coord_adder(x)
         x = self.conv_tr_layer(x)
         if self.bn is not None:
